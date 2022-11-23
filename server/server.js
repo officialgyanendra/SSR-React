@@ -116,10 +116,7 @@ router.use(
 )
 
 // tell the app to use the above rules
-app.get("/details", (req, res)=>{
-  res.send("Welcome to details page");
-  next();
-})
+app.get(router);
 
 
 // app.use(express.static('./build'))
